@@ -32,3 +32,21 @@ function isOfAgeMessage(age){
     return age >= 21 ? "YES" : "NO";
 }
 console.log(isOfAgeMessage(99));
+
+function isEven(n){
+    return n % 2 === 0; //Use Modelo division operator to get remainder
+}
+function makeNegative(num) {
+    let negNum = "-" + num;
+    let alreadyNeg = num
+    let fnegNum = Number(negNum);
+    if(num <= 0){
+      Number(alreadyNeg);
+      console.log(alreadyNeg);
+    }else{
+      negNum = "-" + num;
+      console.log(fnegNum);
+    }
+    return fnegNum;
+  }
+  makeNegative(42);
