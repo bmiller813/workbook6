@@ -23,3 +23,8 @@ data.forEach(testCase => {
         console.log("FAIL: (RED LIGHT)", actual, testCase);
     }
 });
+
+function findSquared(value){
+    return Math.pow(value, 2);
+  }
+ 
